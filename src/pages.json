@@ -5,6 +5,18 @@
 		}
 	],
 	"subPackages": [
+		{
+			"root": "pages-sub",
+			"pages": [
+				{
+					"path": "dev/index",
+					"style": {
+						"navigationBarTitleText": "开发者模式",
+						"navigationStyle": "default"
+					}
+				}
+			]
+		}
 	],
 	"globalStyle": {
 		"pageOrientation": "portrait",

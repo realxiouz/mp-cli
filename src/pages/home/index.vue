@@ -9,7 +9,8 @@
     <button hover-class="bg-yellow-500" class="w-60 mx-auto mt-2 bg-red-500 flex-center h-20 border-none rounded-none">btn</button>
     <div
       class="fixed left-0 w-screen  h-12 bottom-1 rounded-full shadow-lg text-white flex items-center justify-center hover:bg-red-500"
-    >你好</div>
+      @click="$go(`/pages-sub/dev/index`)"
+    >dev</div>
   </div>
 </template>
 
